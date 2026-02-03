@@ -1,1 +1,16 @@
+function loadHub() {
+  const app = document.getElementById("app");
+
+  app.innerHTML = `
+    <h2>Superstar Hub</h2>
+    <div class="hub-grid">
+      <button>Search</button>
+      <button>Creative</button>
+      <button>Homework</button>
+      <button>Music</button>
+      <button>Video</button>
+      <button onclick="openSettings()">Settings</button>
+    </div>
+  `;
+}
 
